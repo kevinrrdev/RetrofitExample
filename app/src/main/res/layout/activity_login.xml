@@ -8,7 +8,7 @@
     android:background="@drawable/fondologin"
     android:layout_gravity="center"
     android:gravity="center"
-    tools:context=".activity.LoginActivity"
+    tools:context=".activity.login.view.LoginActivity"
     android:orientation="vertical">
 
     <LinearLayout

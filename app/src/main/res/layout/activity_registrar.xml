@@ -8,7 +8,7 @@
     android:background="@drawable/fondologin"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".activity.RegistrarActivity">
+    tools:context=".activity.registrar.view.RegistrarActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"

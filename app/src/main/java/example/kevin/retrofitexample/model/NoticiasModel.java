@@ -1,6 +1,6 @@
 package example.kevin.retrofitexample.model;
 
-public class NoticiaModel {
+public class NoticiasModel {
     int idnoticia;
     String noticia,lugar;
     UsuarioModel usuario;

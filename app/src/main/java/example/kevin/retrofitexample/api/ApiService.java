@@ -11,7 +11,7 @@ import example.kevin.retrofitexample.api.request.UsuarioRequest;
 import example.kevin.retrofitexample.api.response.LoginResponse;
 import example.kevin.retrofitexample.api.response.NoticiaResponse;
 import example.kevin.retrofitexample.api.response.UsuarioResponse;
-import example.kevin.retrofitexample.model.NoticiaModel;
+import example.kevin.retrofitexample.model.NoticiasModel;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -31,7 +31,7 @@ public interface ApiService {
     Call<UsuarioResponse> doRegister(@Body UsuarioRequest request);
 
     @GET("api/noticia.php")
-    Call<List<NoticiaModel>> getNoticias(@Query("idusuario") int idusuario);
+    Call<List<NoticiasModel>> getNoticias(@Query("idusuario") int idusuario);
 
     @POST("api/noticia.php")
     Call<NoticiaResponse> registerNoticia(@Body NoticiaRequest request);

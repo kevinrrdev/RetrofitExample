@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".activity.LoginActivity">
+        <activity android:name=".activity.login.view.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.RegistrarActivity"
-            android:parentActivityName=".activity.LoginActivity" />
-        <activity android:name=".activity.ListActivity" />
-        <activity android:name=".activity.NoticiaActivity"
-            android:parentActivityName=".activity.ListActivity"></activity>
+            android:name=".activity.registrar.view.RegistrarActivity"
+            android:parentActivityName=".activity.login.view.LoginActivity" />
+        <activity android:name=".activity.listar.view.ListarActivity" />
+        <activity android:name=".activity.noticia.view.NoticiaActivity"
+            android:parentActivityName=".activity.listar.view.ListarActivity"></activity>
     </application>
 
 </manifest>

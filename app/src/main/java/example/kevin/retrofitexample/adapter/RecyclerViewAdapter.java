@@ -4,21 +4,20 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
 
 import example.kevin.retrofitexample.R;
-import example.kevin.retrofitexample.model.NoticiaModel;
+import example.kevin.retrofitexample.model.NoticiasModel;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
 
-    public List<NoticiaModel> mList;
+    public List<NoticiasModel> mList;
 
 
 
-    public RecyclerViewAdapter(List<NoticiaModel> list){
+    public RecyclerViewAdapter(List<NoticiasModel> list){
         this.mList = list;
     }
 

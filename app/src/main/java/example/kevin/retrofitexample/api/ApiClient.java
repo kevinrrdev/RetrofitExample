@@ -14,8 +14,8 @@ public class ApiClient {
 
         if(apiService==null){
             OkHttpClient okHttpClient= new OkHttpClient.Builder()
-                    .connectTimeout(30, TimeUnit.SECONDS)
-                    .readTimeout(10, TimeUnit.SECONDS)
+                    .connectTimeout(5, TimeUnit.SECONDS)
+                    .readTimeout(5, TimeUnit.SECONDS)
                     .build();
 
             Retrofit builder= new Retrofit.Builder()
